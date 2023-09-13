@@ -1,6 +1,6 @@
 using FastEndpoints.Swagger;
 using FastEndpoints;
-using HardCodeWebApi.ApplicationDbContext.Registation;
+using HardCodeWebApi.ApplicationDataBase.Registation;
 
 var builder = WebApplication.CreateBuilder(args);
 

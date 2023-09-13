@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace HardCodeWebApi.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext.ApplicationDbContext))]
+    [DbContext(typeof(ApplicationDataBase.ApplicationDbContext))]
     [Migration("20230913041013_Init")]
     partial class Init
     {
