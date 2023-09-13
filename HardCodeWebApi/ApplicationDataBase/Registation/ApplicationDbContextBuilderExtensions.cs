@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace HardCodeWebApi.ApplicationDbContext.Registation;
+namespace HardCodeWebApi.ApplicationDataBase.Registation;
 
 public static class ApplicationDbContextBuilderExtensions
 {

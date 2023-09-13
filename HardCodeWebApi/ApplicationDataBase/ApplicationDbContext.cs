@@ -1,10 +1,10 @@
-﻿using HardCodeWebApi.ApplicationDbContext.ModelBuilders.Categories;
-using HardCodeWebApi.ApplicationDbContext.ModelBuilders.Products;
+﻿using HardCodeWebApi.ApplicationDataBase.ModelBuilders.Categories;
+using HardCodeWebApi.ApplicationDataBase.ModelBuilders.Products;
 using HardCodeWebApi.Features.Categories.Domain;
 using HardCodeWebApi.Features.Products.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace HardCodeWebApi.ApplicationDbContext;
+namespace HardCodeWebApi.ApplicationDataBase;
 
 public class ApplicationDbContext : DbContext
 {

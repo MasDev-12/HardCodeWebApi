@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 
-namespace HardCodeWebApi.ApplicationDbContext.ModelBuilders.Categories;
+namespace HardCodeWebApi.ApplicationDataBase.ModelBuilders.Categories;
 
 public class AdditionalFieldModelBuilder : IEntityTypeConfiguration<AdditionalField>
 {

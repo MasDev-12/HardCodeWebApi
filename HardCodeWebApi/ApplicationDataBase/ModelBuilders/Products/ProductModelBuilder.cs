@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 
-namespace HardCodeWebApi.ApplicationDbContext.ModelBuilders.Products;
+namespace HardCodeWebApi.ApplicationDataBase.ModelBuilders.Products;
 
 public class ProductModelBuilder : IEntityTypeConfiguration<Product>
 {
